@@ -1,0 +1,12 @@
+services:
+  kv-store:
+    build: .
+    container_name: cpp-kv-store
+    ports:
+      - "6379:6379"
+    volumes:
+      - kv_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  kv_data:

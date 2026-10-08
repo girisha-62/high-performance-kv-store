@@ -1,0 +1,60 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+compile_commands.json
+install_manifest.txt
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Runtime / generated data
+*.snapshot
+*.tmp
+*.dat
+*.db
+
+# IDE files
+.vscode/
+.idea/
+.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Coverage / profiling output
+coverage/
+*.gcda
+*.gcno
+*.gcov
